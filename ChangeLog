@@ -1,3 +1,10 @@
+2005-07-08  Keith Packard  <keithp@keithp.com>
+
+	* .cvsignore:
+	* man/.cvsignore:
+	* src/.cvsignore:
+	Add .cvsignore files
+
 2005-06-21  Alexander Gottwald  <ago at freedesktop dot org>
 
 	* configure.ac
