@@ -1,3 +1,8 @@
+2005-07-13  keith Packard  <keithp@keithp.com>
+
+	* man/Makefile.am:
+	Make EXTRA_DIST match defined man_MANS variable
+
 2005-07-08  Keith Packard  <keithp@keithp.com>
 
 	* .cvsignore:
