@@ -6,6 +6,4 @@ libXfontcache_la_SOURCES = \
 
 libXfontcache_la_LIBADD = $(DEP_LIBS)
 
-libXfontcache_la_LDFLAGS = -version-info 7:0:0 -no-undefined
-
-
+libXfontcache_la_LDFLAGS = -version-number 1:0:0 -no-undefined
