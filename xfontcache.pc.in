@@ -6,6 +6,6 @@ includedir=@includedir@
 Name: Xfontcache
 Description: The Xfontcache Library
 Version: @PACKAGE_VERSION@
-Cflags: -I${includedir} @DEP_CFLAGS@
-Libs: -L${libdir} -lXfontcache @DEP_LIBS@
+Cflags: -I${includedir} @XFONTCACHE_CFLAGS@
+Libs: -L${libdir} -lXfontcache @XFONTCACHE_LIBS@
 
