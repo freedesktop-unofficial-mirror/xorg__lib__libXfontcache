@@ -1,3 +1,10 @@
+2005-11-12  Alan Coopersmith  <alan.coopersmith@sun.com>
+
+	* configure.ac:
+	* man/Makefile.am:
+	Use sed to substitute variables in man pages.
+	Install shadow man pages for pages that document multiple functions.
+	
 2005-10-18  Kevin E. Martin  <kem-at-freedesktop-dot-org>
 
 	* configure.ac:
