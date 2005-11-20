@@ -1,1 +1,7 @@
+Makefile
 Makefile.in
+FontCacheChangeCacheSettings.3
+FontCacheGetCacheSettings.3
+FontCacheGetCacheStatistics.3
+FontCacheQueryExtension.3
+FontCacheQueryVersion.3
