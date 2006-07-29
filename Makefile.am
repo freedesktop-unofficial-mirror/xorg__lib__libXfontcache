@@ -26,3 +26,9 @@ pkgconfig_DATA = xfontcache.pc
 
 EXTRA_DIST = xfontcache.pc.in autogen.sh
 
+.PHONY: ChangeLog
+
+ChangeLog:
+	GIT_DIR=${srcdir}/.git git-log --name-only > ChangeLog
+
+dist-hook: ChangeLog
