@@ -1,3 +1,5 @@
+.deps
+.libs
 Makefile
 Makefile.in
 aclocal.m4
@@ -18,3 +20,10 @@ mkinstalldirs
 stamp-h1
 xfontcache.pc
 *~
+*.3
+*.o
+*.lo
+*.la
+libXfontcache-*.tar.*
+ChangeLog
+tags
