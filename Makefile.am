@@ -24,8 +24,7 @@ SUBDIRS = src man
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = xfontcache.pc
 
-EXTRA_DIST = xfontcache.pc.in ChangeLog
-MAINTAINERCLEANFILES = ChangeLog
+EXTRA_DIST = xfontcache.pc.in 
 
 .PHONY: ChangeLog
 
